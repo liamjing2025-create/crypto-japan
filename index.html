@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="日本向けの暗号資産・Bitcoin・Web3ニュース">
+  <title>Crypto Japan | 暗号資産ニュース</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #f3f5fa;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header {
+      padding: 18px 7%;
+      border-bottom: 1px solid #293149;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo { font-size: 22px; font-weight: 800; }
+    .logo span { color: #f7931a; }
+    nav a {
+      color: #cbd3e6;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+    main { max-width: 1050px; margin: auto; padding: 44px 22px; }
+    .hero {
+      padding: 38px;
+      border: 1px solid #303a55;
+      border-radius: 20px;
+      background: linear-gradient(130deg, #182541, #101629);
+    }
+    .tag { color: #f7931a; font-weight: bold; }
+    h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.25; }
+    .muted { color: #aab5cc; }
+    .button {
+      display: inline-block;
+      background: #f7931a;
+      color: #151515;
+      padding: 10px 18px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+    .card {
+      padding: 22px;
+      background: #151d30;
+      border: 1px solid #293149;
+      border-radius: 14px;
+    }
+    .price { font-size: 26px; font-weight: bold; }
+    footer {
+      border-top: 1px solid #293149;
+      padding: 25px;
+      text-align: center;
+      color: #aab5cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Crypto <span>Japan</span></div>
+    <nav>
+      <a href="#market">市場</a>
+      <a href="#news">ニュース</a>
+      <a href="#about">運営情報</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">BITCOIN · WEB3 · MACRO</p>
+      <h1>暗号資産市場を、<br>もっとわかりやすく。</h1>
+      <p class="muted">
+        Bitcoin、金融政策、日本経済、Web3の最新動向を解説します。
+      </p>
+      <a class="button" href="#news">ニュースを読む →</a>
+    </section>
+
+    <section id="market">
+      <h2>マーケット情報</h2>
+      <p class="muted">以下は表示サンプルです。リアルタイム価格ではありません。</p>
+      <div class="grid">
+        <article class="card">
+          <p class="muted">Bitcoin / BTC</p>
+          <div class="price">$82,700</div>
+          <p>サンプル価格</p>
+        </article>
+        <article class="card">
+          <p class="muted">注目テーマ</p>
+          <div class="price">FRB × BOJ</div>
+          <p>米国・日本の金融政策</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>最新ニュース</h2>
+      <div class="grid">
+        <article class="card">
+          <p class="tag">BITCOIN</p>
+          <h3>ビットコイン市場の注目ポイント</h3>
+          <p class="muted">ここに記事の要約を掲載します。</p>
+        </article>
+        <article class="card">
+          <p class="tag">JAPAN ECONOMY</p>
+          <h3>日銀の金融政策と市場への影響</h3>
+          <p class="muted">ここに記事の要約を掲載します。</p>
+        </article>
+        <article class="card">
+          <p class="tag">WEB3</p>
+          <h3>日本のWeb3業界の最新動向</h3>
+          <p class="muted">ここに記事の要約を掲載します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>このサイトについて</h2>
+      <p class="muted">
+        暗号資産・金融市場に関する情報を提供する独立メディアです。
+        投資判断はご自身の責任で行ってください。
+      </p>
+    </section>
+  </main>
+
+  <footer>© 2026 Crypto Japan · Information only, not financial advice.</footer>
+</body>
+</html>
